@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/tail.css">
     <!-- <link rel="stylesheet" href="a.css"> -->
 
+     <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+	 <!--Responsive Extension Datatables CSS-->
+	 <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+
     <!--  -->
 
 </head>
@@ -75,22 +79,22 @@
 
             <!-- Table Wrapper -->
             <div class="overflow-x-auto px-2 py-3 sm:px-4 sm:py-4">
+ <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+					<thead>
+						<tr>
+							<th data-priority="1">Name</th>
+							<th data-priority="2">Mobile Number</th>
+							<th data-priority="3">Email</th>
+							<th data-priority="4">Complaint</th>
+							
+							
+						</tr>
+					</thead>
+            
 
-                <table class="min-w-full text-left border-separate border-spacing-y-2">
+                    <tbody class="text-center ">
 
-                    <thead>
-                        <tr class="bg-gray-50  :bg-gray-900/20">
-                            <th class="p-3 text-sm font-medium text-gray-600">Name</th>
-                            <th class="p-3 text-sm font-medium text-gray-600">Mobile Number</th>
-                            <th class="p-3 text-sm font-medium text-gray-600">Email</th>
-                            <th class="p-3 text-sm font-medium text-gray-600">Complaint</th>
-                            
-                        </tr>
-                    </thead>
-
-                    <tbody class="text-sm">
-
-                        <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                        <tr class="bg-white rounded-lg shadow-sm">
                             <td class="p-3 text-gray-700  :text-gray-300">Salman</td>
 
                             <td class="p-3 text-gray-700  :text-gray-300">9876543210</td>
@@ -151,7 +155,23 @@
     <!-- ===== Page Wrapper End ===== -->
 
 
-
+<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		
+	<!--Datatables -->
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			
+			var table = $('#example').DataTable( {
+					responsive: true
+				} )
+				.columns.adjust()
+				.responsive.recalc();
+		} );
+	
+	</script>
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
