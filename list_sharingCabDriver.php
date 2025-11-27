@@ -33,7 +33,7 @@
     <!-- ===== Preloader End ===== -->
 
     <!-- ===== Page Wrapper Start ===== -->
-    <div class="flex h-screen overflow-hidden">
+    <div class="flex h-screen bg-gray-800 overflow-hidden">
 
         <!-- ===== Sidebar Start ===== -->
         <?php
@@ -64,11 +64,11 @@
           <main class="px-4 py-5 md:px-8">
     <div class="max-w-5xl mx-auto">
 
-        <div class="rounded-xl border border-gray-200 bg-white  :border-gray-800  :bg-white/5 shadow-sm">
+        <div class="rounded-xl mt-20 bg-white shadow-sm">
 
             <!-- Header -->
-            <div class="px-4 py-3 border-b border-gray-100  :border-gray-800">
-                <h3 class="text-lg font-semibold text-gray-800  :text-white">
+            <div class="px-4 py-3 bg-rose-100 rounded-t-[15px]">
+                <h3 class="text-lg font-semibold text-gray-800  ">
                      Sharing Cab Driver Details
                 </h3>
             </div>
@@ -92,7 +92,7 @@
                     <tbody class="text-sm">
 
                         <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700  :text-gray-300">Salman</td>
+                            <td class="p-3 text-gray-700  ">Salman</td>
 
                             <td class="p-3 text-gray-700  :text-gray-300">Khan</td>
 
