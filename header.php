@@ -11,14 +11,14 @@
 </head>
 <body>
     <header x-data="{ menuToggle: false }"
-    class="sticky top-0 z-[9999] flex w-full bg-gray-400 border-b border-gray-900 lg:px-6">
+    class="sticky top-0 z-[9999] flex w-full bg-gray-300 border-b border-gray-900 lg:px-6">
 
     <div class="flex   w-full items-center justify-between px-3 py-3 lg:py-4">
 
  
         <button
             @click.stop="sidebarToggle = !sidebarToggle"
-            class="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-400 text-gray-700 hover:bg-gray-100 lg:h-11 lg:w-11">
+            class="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 lg:h-11 lg:w-11">
 
             <!-- hamburger -->
             <svg x-show="!sidebarToggle" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2">
@@ -38,7 +38,7 @@
 
            
             <a href="login.php"
-                class="flex items-center gap-2 rounded-lg px-3 py-2 text-gray-700 border border-gray-400 hover:bg-gray-100">
+                class="flex items-center gap-2 rounded-lg px-3 py-2 text-gray-700 border border-gray-300 hover:bg-gray-100">
 
                 <svg class="h-5 w-5 text-gray-600" fill="none" stroke="currentColor" stroke-width="2"
                     viewBox="0 0 24 24">
