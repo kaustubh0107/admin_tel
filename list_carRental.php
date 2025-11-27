@@ -37,7 +37,7 @@
     <!-- ===== Preloader End ===== -->
 
     <!-- ===== Page Wrapper Start ===== -->
-    <div class="flex h-screen overflow-hidden">
+    <div class="flex h-screen bg-gray-800 overflow-hidden">
 
         <!-- ===== Sidebar Start ===== -->
         <?php
@@ -69,11 +69,11 @@
                 <div class="max-w-5xl mx-auto">
 
                     <div
-                        class="rounded-xl border border-gray-200 bg-white shadow-sm">
+                        class="rounded-xl mt-15 bg-white shadow-sm">
 
                         <!-- Header -->
-                        <div class="px-4 py-3 border-b border-gray-100 ">
-                            <h3 class="text-lg font-semibold text-gray-800">
+                        <div class="px-4 py-3 bg-rose-100 rounded-t-[15px] ">
+                            <h3 class="text-lg  font-semibold text-gray-800">
                                 Car Rental Details
                             </h3>
                         </div>

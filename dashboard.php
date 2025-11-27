@@ -47,7 +47,7 @@ include_once 'sidebar.php';
  <!-- ===== Sidebar End ===== -->
 
         <!-- ===== Content Area Start ===== -->
-        <div class="relative flex flex-col flex-1 overflow-x-hidden overflow-y-auto">
+        <div class="relative bg-gray-800 flex flex-col flex-1 overflow-x-hidden overflow-y-auto">
             <!-- Small Device Overlay Start -->
             <div @click="sidebarToggle = false" :class="sidebarToggle ? 'block lg:hidden' : 'hidden'"
                 class="fixed w-full h-screen z-9 bg-gray-900/50"></div>
@@ -68,7 +68,7 @@ include_once 'sidebar.php';
 
     <!-- Car Rentals -->
     <a href="list_carRental.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
-        <div class="p-3 bg-gray-100 rounded-lg">
+        <div class=" p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -77,7 +77,7 @@ include_once 'sidebar.php';
                     d="M4.5 10.5l1.5-4.5h12l1.5 4.5" />
             </svg>
         </div>
-        <div>
+        <div  >
             <p class="text-gray-600 text-sm">Total Car Rentals</p>
             <h2 class="text-2xl font-bold text-gray-900">120</h2>
         </div>
