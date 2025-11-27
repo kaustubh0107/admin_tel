@@ -18,11 +18,11 @@
 </head>
 
 <body
-    x-data="{ page: 'ecommerce', 'loaded': true, 'darkMode': false, 'stickyMenu': false, 'sidebarToggle': false, 'scrollTop': false }"
+    x-data="{ page: 'ecommerce', 'loaded': true, ' Mode': false, 'stickyMenu': false, 'sidebarToggle': false, 'scrollTop': false }"
     x-init="
-         darkMode = JSON.parse(localStorage.getItem('darkMode'));
-         $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
-    :class="{'dark bg-gray-900': darkMode === true}">
+          Mode = JSON.parse(localStorage.getItem(' Mode'));
+         $watch(' Mode', value => localStorage.setItem(' Mode', JSON.stringify(value)))"
+    :class="{'  bg-gray-900':  Mode === true}">
     <!-- ===== Preloader Start ===== -->
     <?php
 
@@ -64,11 +64,11 @@
           <main class="px-4 py-5 md:px-8">
     <div class="max-w-5xl mx-auto">
 
-        <div class="rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/5 shadow-sm">
+        <div class="rounded-xl border border-gray-200 bg-white shadow-sm">
 
             <!-- Header -->
-            <div class="px-4 py-3 border-b border-gray-100 dark:border-gray-800">
-                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+            <div class="px-4 py-3 border-b border-gray-100 ">
+                <h3 class="text-lg font-semibold text-gray-800 ">
                      Driver Details
                 </h3>
             </div>
@@ -79,7 +79,7 @@
                 <table class="min-w-full text-left border-separate border-spacing-y-2">
 
                     <thead>
-                        <tr class="bg-gray-50 dark:bg-gray-900/20">
+                        <tr class="bg-gray-50 ">
                             <th class="p-3 text-sm font-medium text-gray-600">Driver Name</th>
                             <th class="p-3 text-sm font-medium text-gray-600">Driver Number</th>
                             <th class="p-3 text-sm font-medium text-gray-600">Price</th>
@@ -91,89 +91,89 @@
 
                     <tbody class="text-sm">
 
-                        <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Salman</td>
+                        <tr class="bg-white  rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700 ">Salman</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9876543210</td>
+                            <td class="p-3 text-gray-700 ">9876543210</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">1400</td>
+                            <td class="p-3 text-gray-700 ">1400</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Chandrapur</td>
+                            <td class="p-3 text-gray-700 ">Chandrapur</td>
                             <td class="p-3">
                                 <div class="flex -space-x-2">
                                     <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                 </div>
                             </td>
-                            <td class="p-3 text-gray-700 dark:text-gray-300"><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                            <td class="p-3 text-gray-700 "><button type=""
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  focus:ring-4 focus:outline-none focus:ring-green-200 ">
                                                 <span
-                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover:dark:bg-transparent leading-5">
+                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent  leading-5">
                                                     Update
                                                 </span>
                                             </button></td>
 
                         </tr>
-                          <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Sunny</td>
+                          <tr class="bg-white  rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700 ">Sunny</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9765432108</td>
+                            <td class="p-3 text-gray-700 ">9765432108</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">1200</td>
+                            <td class="p-3 text-gray-700 ">1200</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Nagpur</td>
+                            <td class="p-3 text-gray-700 ">Nagpur</td>
                             <td class="p-3">
                                 <div class="flex -space-x-2">
                                     <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                 </div>
                             </td>
-                            <td class="p-3 text-gray-700 dark:text-gray-300"><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                            <td class="p-3 text-gray-700 "><button type=""
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200 ">
                                                 <span
-                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover:dark:bg-transparent leading-5">
+                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent  leading-5">
                                                     Update
                                                 </span>
                                             </button></td>
 
                         </tr>
-                          <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Ajay</td>
+                          <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700  :text-gray-300">Ajay</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">90123456789</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">90123456789</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">1500</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">1500</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Wardha</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">Wardha</td>
                             <td class="p-3">
                                 <div class="flex -space-x-2">
                                     <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                 </div>
                             </td>
-                            <td class="p-3 text-gray-700 dark:text-gray-300"><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                            <td class="p-3 text-gray-700  :text-gray-300"><button type=""
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  :text-white focus:ring-4 focus:outline-none focus:ring-green-200  :focus:ring-green-800">
                                                 <span
-                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover:dark:bg-transparent leading-5">
+                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover: :bg-transparent leading-5">
                                                     Update
                                                 </span>
                                             </button></td>
 
                         </tr>
-                          <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Amir</td>
+                          <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700  :text-gray-300">Amir</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9654789356</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">9654789356</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">1400</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">1400</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Pune</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">Pune</td>
                             <td class="p-3">
                                 <div class="flex -space-x-2">
                                     <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                 </div>
                             </td>
-                            <td class="p-3 text-gray-700 dark:text-gray-300"><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                            <td class="p-3 text-gray-700  :text-gray-300"><button type=""
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  :text-white focus:ring-4 focus:outline-none focus:ring-green-200  :focus:ring-green-800">
                                                 <span
-                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover:dark:bg-transparent leading-5">
+                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover: :bg-transparent leading-5">
                                                     Update
                                                 </span>
                                             </button></td>

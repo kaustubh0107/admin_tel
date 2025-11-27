@@ -82,62 +82,62 @@
 
                                             <div>
                                                 <label for="vehicleName"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
                                                     Vehicle Name
                                                 </label>
                                                 <input type="text" id="vehicleName"
                                                     placeholder="Enter vehicle name here..." required
-                                                    class="dark:bg-dark-900 shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10 dark:focus:border-brand-800 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30" />
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
                                             </div>
 
                                             <div>
                                                 <label for="vehicleNum"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                                                    class="mb-1.5 block text-sm font-medium text-gray-70">
                                                     Vehicle Number
                                                 </label>
                                                 <input type="text" id="vehicleNum"
                                                     placeholder="Enter vehicle number here..."
-                                                    class="dark:bg-dark-900 shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10 dark:focus:border-brand-800 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30" />
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden" />
                                             </div>
 
                                             <!-- vehicle photo -->
 
                                             <div>
                                                 <label for="vehiclePhoto"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700 ">
                                                     Vehicle Photo
                                                 </label>
                                                 <input type="file" id="vehiclePhoto"
-                                                    class="focus:border-ring-brand-300 shadow-theme-xs focus:file:ring-brand-300 h-11 w-full overflow-hidden rounded-lg border border-gray-300 bg-transparent text-sm text-gray-500 transition-colors file:mr-5 file:border-collapse file:cursor-pointer file:rounded-l-lg file:border-0 file:border-r file:border-solid file:border-gray-200 file:bg-gray-50 file:py-3 file:pr-3 file:pl-3.5 file:text-sm file:text-gray-700 placeholder:text-gray-400 hover:file:bg-gray-100 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400 dark:text-white/90 dark:file:border-gray-800 dark:file:bg-white/[0.03] dark:file:text-gray-400 dark:placeholder:text-gray-400" />
+                                                    class="focus:border-ring-brand-300 shadow-theme-xs focus:file:ring-brand-300 h-11 w-full overflow-hidden rounded-lg border border-gray-300 bg-transparent text-sm text-gray-500 transition-colors file:mr-5 file:border-collapse file:cursor-pointer file:rounded-l-lg file:border-0 file:border-r file:border-solid file:border-gray-200 file:bg-gray-50 file:py-3 file:pr-3 file:pl-3.5 file:text-sm file:text-gray-700 placeholder:text-gray-400 hover:file:bg-gray-100 focus:outline-hidden " />
                                             </div>
 
                                             <!-- vehicle type -->
 
                                             <div>
                                                 <label for="VehicleType"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700 ">
                                                     Select Vehicle Type
                                                 </label>
                                                 <div x-data="{ isOptionSelected: false }"
                                                     class="relative z-20 bg-transparent">
                                                     <select id="VehicleType"
-                                                        class="dark:bg-dark-900 shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10 dark:focus:border-brand-800 h-11 w-full appearance-none rounded-lg border border-gray-300 bg-transparent bg-none px-4 py-2.5 pr-11 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30"
+                                                        class="shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full appearance-none rounded-lg border border-gray-300 bg-transparent bg-none px-4 py-2.5 pr-11 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden "
                                                         :class="isOptionSelected && 'text-gray-800 dark:text-white/90'"
                                                         @change="isOptionSelected = true">
                                                         <option value=""
-                                                            class="text-gray-700 dark:bg-gray-900 dark:text-gray-400">
+                                                            class="text-gray-700 ">
                                                             Select Type
                                                         </option>
                                                         <option value=""
-                                                            class="text-gray-700 dark:bg-gray-900 dark:text-gray-400">
+                                                            class="text-gray-700 ">
                                                             4 Seater
                                                         </option>
                                                         <option value=""
-                                                            class="text-gray-700 dark:bg-gray-900 dark:text-gray-400">
+                                                            class="text-gray-700 ">
                                                             7 Seater
                                                         </option>
                                                         <option value=""
-                                                            class="text-gray-700 dark:bg-gray-900 dark:text-gray-400">
+                                                            class="text-gray-700 ">
                                                             9 Seater
                                                         </option>
                                                     </select>

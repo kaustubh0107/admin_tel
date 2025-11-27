@@ -18,11 +18,11 @@
 </head>
 
 <body
-    x-data="{ page: 'ecommerce', 'loaded': true, 'darkMode': false, 'stickyMenu': false, 'sidebarToggle': false, 'scrollTop': false }"
+    x-data="{ page: 'ecommerce', 'loaded': true, ' Mode': false, 'stickyMenu': false, 'sidebarToggle': false, 'scrollTop': false }"
     x-init="
-         darkMode = JSON.parse(localStorage.getItem('darkMode'));
-         $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
-    :class="{'dark bg-gray-900': darkMode === true}">
+          Mode = JSON.parse(localStorage.getItem(' Mode'));
+         $watch(' Mode', value => localStorage.setItem(' Mode', JSON.stringify(value)))"
+    :class="{'  bg-gray-900':  Mode === true}">
     <!-- ===== Preloader Start ===== -->
     <?php
 
@@ -64,11 +64,11 @@
           <main class="px-4 py-5 md:px-8">
     <div class="max-w-5xl mx-auto">
 
-        <div class="rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/5 shadow-sm">
+        <div class="rounded-xl border border-gray-200 bg-white  :border-gray-800  :bg-white/5 shadow-sm">
 
             <!-- Header -->
-            <div class="px-4 py-3 border-b border-gray-100 dark:border-gray-800">
-                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+            <div class="px-4 py-3 border-b border-gray-100  :border-gray-800">
+                <h3 class="text-lg font-semibold text-gray-800  :text-white">
                      Feedback
                 </h3>
             </div>
@@ -79,7 +79,7 @@
                 <table class="min-w-full text-left border-separate border-spacing-y-2">
 
                     <thead>
-                        <tr class="bg-gray-50 dark:bg-gray-900/20">
+                        <tr class="bg-gray-50  :bg-gray-900/20">
                             <th class="p-3 text-sm font-medium text-gray-600">Name</th>
                             <th class="p-3 text-sm font-medium text-gray-600">Mobile Number</th>
                             <th class="p-3 text-sm font-medium text-gray-600">Email</th>
@@ -90,45 +90,45 @@
 
                     <tbody class="text-sm">
 
-                        <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Salman</td>
+                        <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700  :text-gray-300">Salman</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9876543210</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">9876543210</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">salman@gmail.com</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">salman@gmail.com</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
                             
                         </tr>
 
-                          <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Ajay</td>
+                          <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700  :text-gray-300">Ajay</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9876543210</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">9876543210</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">ajay@gmail.com</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">ajay@gmail.com</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
                             
                         </tr>
-                          <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Sunny</td>
+                          <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700  :text-gray-300">Sunny</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9876543210</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">9876543210</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">sunny@gmail.com</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">sunny@gmail.com</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
                             
                         </tr>
-                          <tr class="bg-white dark:bg-gray-900 rounded-lg shadow-sm">
-                            <td class="p-3 text-gray-700 dark:text-gray-300">Amir</td>
+                          <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
+                            <td class="p-3 text-gray-700  :text-gray-300">Amir</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">9876543210</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">9876543210</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">amir@gmail.com</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">amir@gmail.com</td>
 
-                            <td class="p-3 text-gray-700 dark:text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
+                            <td class="p-3 text-gray-700  :text-gray-300">usbxuwhbsxuscbuwbcubcxuhdbs</td>
                             
                         </tr>
 
