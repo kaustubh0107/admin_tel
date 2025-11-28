@@ -65,11 +65,11 @@
             <!-- ===== Header End ===== -->
 
             <!-- ===== Main Content Start ===== -->
-            <main class="px-4 py-5 md:px-8">
+            <main class="px-4 py-6 md:px-8">
                 <div class="max-w-5xl mx-auto">
 
                     <div
-                        class="rounded-xl mt-15 bg-white shadow-sm">
+                        class="rounded-xl mt-6 bg-white shadow-sm">
 
                         <!-- Header -->
                         <div class="px-4 py-3 bg-rose-100 rounded-t-[15px] ">

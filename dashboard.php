@@ -64,10 +64,10 @@ include_once 'sidebar.php';
             <!-- ===== Header End ===== -->
 
             <!-- ===== Main Content Start ===== -->
-       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 p-6">
+       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 p-6 pt-20">
 
     <!-- Car Rentals -->
-    <a href="list_carRental.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_carRental.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class=" p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -84,7 +84,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Driver Count -->
-    <a href="list_driver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_driver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -101,7 +101,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Sharing Cab Drivers -->
-    <a href="list_sharingCabDriver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_sharingCabDriver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -118,7 +118,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Complaints -->
-    <a href="list_complaint.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_complaint.php"  class="flex items-center gap-4 p-5  bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Feedback -->
-    <a href="list_feedback.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_feedback.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">

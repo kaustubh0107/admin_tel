@@ -11,7 +11,7 @@
 </head>
 <body>
     <header x-data="{ menuToggle: false }"
-    class="sticky top-0 z-[9999] flex w-full bg-gray-300 border-b border-gray-900 lg:px-6">
+    class="sticky top-0 z-[9999] flex w-full bg-gray-300 border-b border-gray-700 border-l-[1px] border-gray-700 lg:px-6">
 
     <div class="flex   w-full items-center justify-between px-3 py-3 lg:py-4">
 
